@@ -1,3 +1,5 @@
 .PHONY: ci_vivado_run
 ci_vivado_run:
 	@> ___CI_REPORT;
+	@$(MAKE) vivado CONFIG=default TOP=clk_gate_tb
+	@$(MAKE) vivado CONFIG=default TOP=clk_mux_tb
