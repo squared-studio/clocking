@@ -6,6 +6,11 @@ sampled enable signal is then used to gate the clock (`clk_i`). If `sampled_en_i
 is enabled and `clk_o` is equal to `clk_i`. If `sampled_en_i` is low, the clock is disabled and
 `clk_o` is low.
 Author : Foez Ahmed (foez.official@gmail.com)
+<br>
+<br>This file is part of squared-studio:clocking
+<br>Copyright (c) 2024 squared-studio
+<br>Licensed under the MIT License
+<br>See LICENSE file in the project root for full license information
 */
 
 module clk_gate #(

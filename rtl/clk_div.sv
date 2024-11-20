@@ -11,6 +11,11 @@ When the reset signal is not asserted, the counter is incremented at each clock 
 output clock is toggled when the count reaches the high or low count threshold.
 
 Author : Foez Ahmed (foez.official@gmail.com)
+<br>
+<br>This file is part of squared-studio:clocking
+<br>Copyright (c) 2024 squared-studio
+<br>Licensed under the MIT License
+<br>See LICENSE file in the project root for full license information
 */
 
 module clk_div #(

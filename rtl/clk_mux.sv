@@ -6,6 +6,11 @@ clock. The synchronizers are used to mitigate metastability issues when switchin
 clocks. The select input (`sel_i`) determines which clock is selected. The selected clock is then
 output on `clk_o`.
 Author : Foez Ahmed (foez.official@gmail.com)
+<br>
+<br>This file is part of squared-studio:clocking
+<br>Copyright (c) 2024 squared-studio
+<br>Licensed under the MIT License
+<br>See LICENSE file in the project root for full license information
 */
 
 module clk_mux #(

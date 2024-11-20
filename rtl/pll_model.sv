@@ -2,6 +2,11 @@
 The `pll_model` module is a model of a Phase-Locked Loop (PLL). It takes in a reference frequency
 and outputs a frequency that is locked to the reference frequency.
 Author: Foez Ahmed (foez.official@gmail.com)
+<br>
+<br>This file is part of squared-studio:clocking
+<br>Copyright (c) 2024 squared-studio
+<br>Licensed under the MIT License
+<br>See LICENSE file in the project root for full license information
 */
 
 module pll_model (
